@@ -1,0 +1,9 @@
+<suite name="Walmart" parallel="tests">
+<test name="TestNG" allow-return-values="true">
+<classes>
+<class name="testLayer.CreateAccount"/>
+<class name="testLayer.GuestUserTL"/>
+<class name="testLayer.CartTL"/>
+</classes>
+</test>
+</suite>
